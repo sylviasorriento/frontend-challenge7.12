@@ -8,105 +8,219 @@
     <script src="https://use.fontawesome.com/37471687aa.js"></script>
   </head>
   <body>
-    <nav>
-      <div class="arrow-left">
-        <i class="fa fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i>
-      </div>
-    </nav>
-    <section class="container">
-      <section class="route-list">
-        <div id="60" class="location">
-          <div class="content">
-            <h1>60 - <em>Eastbound</em></h1>
-            <h3>Randolph / Harbor Dr</h3>
-            <h4>20min</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div id="124" class="location">
-          <div class="content">
-            <h1>124 - <em>Eastbound</em></h1>
-            <h3>Navy Pier</h3>
-            <h4>10min</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div id="151" class="location">
-          <div class="content">
-            <h1>151 - <em>Northbound</em></h1>
-            <h3>Devon / Clark</h3>
-            <h4>16min</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div id="J14" class="location">
-          <div class="content">
-            <h1>J14 - <em>Southbound</em></h1>
-            <h3>103rd / Stony Island</h3>
-            <h4>15min</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div id="124" class="location">
-          <div class="content">
-            <h1>124 - <em>Southbound</em></h1>
-            <h3>Nacy Pier</h3>
-            <h4>10min</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div id="6x" class="location">
-          <div class="content">
-            <h1>6x - <em>Reroute</em></h1>
-            <h3>Jackson Park Express</h3>
-            <h4>N/A</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div id="4" class="location">
-          <div class="content">
-            <h1>4 - <em>Out of Service</em></h1>
-            <h3>Cottage Grove</h3>
-            <h4>Resumes 12:10am</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div id="20" class="location">
-          <div class="content">
-            <h1>20 - <em>Out of Service</em></h1>
-            <h3>Madison</h3>
-            <h4>Resumes 12:10am</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div id="157" class="location">
-          <div class="content">
-            <h1>157 - <em>Out of Service</em></h1>
-            <h3>Streeterville / Taylor</h3>
-            <h4>Resumes 6:00am</h4>
-          </div>
-          <div class="arrow">
-            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
-          </div>
-        </div>
+    <header>
+      <section class="status-and-nav">
+        <img src="images/statusbar.png" class="statusbar" alt="status bar"/>
+          <nav>
+            <ul id="navigation">
+              <li class="arrow-left">
+                <i class="fa fa-chevron-left fa-inverse fa-2x" aria-hidden="true"></i>
+              </li>
+              <!-- <section class="Bus-Heading"> -->
+              <li><img src="images/bus-symbol.png" class="bus" alt="bus symbol"/></li>
+              <li><h1>Washington / State</h1></li>
+              <!-- </section> -->
+              <li><img src="images/alert.png" class="alert" alt="alert symbol"/></li>
+            </ul>
+          </nav>
       </section>
+    </header>
+
+    <img src="images/map.png" class="map" alt="map"/>
+    <section class="container">
+      <h1>your route</h1>
+      <ul id="your-route">
+        <section class="content">
+          <li><h2>60 - Eastbound</h2></li>
+          <li><h3>Randolph / Harbor Dr</h3></li>
+          <li><h4>Every 20 min</h4></li>
+          <li><h5>20 min</h5></li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+      </ul>
+      <h1>full schedule</h1>
+      <ul id="full-schedule">
+        <section class="content">
+          <li><h2>124 - Eastbound</h2></li>
+          <li><h3>Navy Pier</h3></li>
+          <li><h4>Every 10 min</h4></li>
+          <li><h5>10 min</h5></li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+        <section class="content">
+          <li><h2>151 - Northbound</h2></li>
+          <li><h3>Devon / Clark</h3></li>
+          <li><h4>Every 16 min</h4></li>
+          <li><h5>16 min</h5></li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+        <section class="content">
+          <li><h2>J14 - Southbound</h2></li>
+          <li><h3>103rd / Stony Island</h3><li>
+          <li><h4>Every 15 min</h4></li>
+          <li><h5>15 min</h5><li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+        <section class="content">
+          <li><h2>124 - Southbound</h2></li>
+          <li><h3>Nacy Pier</h3></li>
+          <li><h4>Every 10 min</h4></li>
+          <li><h5>10 min</h5></li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+      </ul>
+      <h1>reroute</h1>
+      <ul id="reroute">
+        <section class="content">
+          <li><h2>6x - Reroute</h2></li>
+          <li><h3>Jackson Park Express</h3></li>
+          <li><h4>N/A</h4></li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+      </ul>
+      <h1>out of service</h1>
+      <ul id="out-of-service">
+        <section class="content">
+          <li><h2>4 - Out of Service</h2></li>
+          <li><h3>Cottage Grove</h3></li>
+          <li><h4>Resumes 12:10am</h4></li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+        <section class="content">
+          <li><h2>20 - Out of Service</h2></li>
+          <li><h3>Madison</h3></li>
+          <li><h4>Resumes 12:10am</h4></li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+        <section class="content">
+          <li><h2>157 - Out of Service</h2></li>
+          <li><h3>Streeterville / Taylor</h3></li>
+          <li><h4>Resumes 6:00am</h4></li>
+          <li class="arrow">
+            <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+          </li>
+        </section>
+      </ul>
     </section>
   </body>
 </html>
 frontend-challenge7.12
+
+<!-- <section class="container">
+  <img src="images/map.png" class="map" alt="map"/>
+  <h1>your route</h1>
+  <section class="route-list">
+    <div id="60" class="location">
+      <div class="content">
+        <h1>60 - <em>Eastbound</em></h1>
+        <h3>Randolph / Harbor Dr</h3>
+        <h4>Every 20min</h4>
+        <h5>20min</h5>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="124" class="location">
+      <div class="content">
+        <h1>124 - <em>Eastbound</em></h1>
+        <h3>Navy Pier</h3>
+        <h4>Every 10min</h4>
+        <h5>10min</h5>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="151" class="location">
+      <div class="content">
+        <h1>151 - <em>Northbound</em></h1>
+        <h3>Devon / Clark</h3>
+        <h4>Every 16min</h4>
+        <h5>16min</h5>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="J14" class="location">
+      <div class="content">
+        <h1>J14 - <em>Southbound</em></h1>
+        <h3>103rd / Stony Island</h3>
+        <h4>Every 15min</h4>
+        <h5>15min</h5>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="124" class="location">
+      <div class="content">
+        <h1>124 - <em>Southbound</em></h1>
+        <h3>Nacy Pier</h3>
+        <h4>Every 10min</h4>
+        <h5>10min</h5>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="6x" class="location">
+      <div class="content">
+        <h1>6x - <em>Reroute</em></h1>
+        <h3>Jackson Park Express</h3>
+        <h4>N/A</h4>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="4" class="location">
+      <div class="content">
+        <h1>4 - <em>Out of Service</em></h1>
+        <h3>Cottage Grove</h3>
+        <h4>Resumes 12:10am</h4>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="20" class="location">
+      <div class="content">
+        <h1>20 - <em>Out of Service</em></h1>
+        <h3>Madison</h3>
+        <h4>Resumes 12:10am</h4>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div id="157" class="location">
+      <div class="content">
+        <h1>157 - <em>Out of Service</em></h1>
+        <h3>Streeterville / Taylor</h3>
+        <h4>Resumes 6:00am</h4>
+      </div>
+      <div class="arrow">
+        <i class="fa fa-chevron-right fa-2x" aria-hidden="true"></i>
+      </div>
+    </div>
+  </section>
+</section> -->
+# frontend-challenge7.12
