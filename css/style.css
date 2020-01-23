@@ -150,13 +150,13 @@ body {
   float: right;
 }
 
-#rightside {
+.rightside {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#rightside li {
+.rightside li {
   display: inline-block;
 }
 
@@ -171,3 +171,23 @@ section.content:hover {
   width: 100%;
   padding-bottom: 40px;
 }
+
+#reroute h2 {
+  color: red;
+}
+#reroute h4 {
+  color: red;
+}
+/* #reroute {
+  color: red;
+} */
+
+#out-of-service h2 {
+  color: gray;
+}
+#out-of-service h4 {
+  color: gray;
+}
+/* #out-of-service {
+  color: gray;
+} */
