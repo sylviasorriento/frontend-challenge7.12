@@ -99,16 +99,16 @@ body {
   color: rgb(0,61,143);
   margin-left: 15px;
   margin-top: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 3px;
 }
 
 .container h3 {
   font-size: 1em;
   text-align: left;
-  color: gray;
+  color: rgb(0,61,143);
   padding-top: 5px;
   margin-left: 15px;
-  margin-bottom: 5px;
+  margin-bottom: 8px;
 }
 
 .container h4 {
@@ -131,20 +131,6 @@ body {
   font-size: .6em;
   margin-right: 10px;
 }
-
-/* .align-right {
-  float: right;
-}
-
-#align-right {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-#align-right li {
-  display: inline-block;
-} */
 
 .right {
   float: right;
@@ -175,19 +161,19 @@ section.content:hover {
 #reroute h2 {
   color: red;
 }
+#reroute h3 {
+  color: red;
+}
 #reroute h4 {
   color: red;
 }
-/* #reroute {
-  color: red;
-} */
 
 #out-of-service h2 {
+  color: gray;
+}
+#out-of-service h3 {
   color: gray;
 }
 #out-of-service h4 {
   color: gray;
 }
-/* #out-of-service {
-  color: gray;
-} */
